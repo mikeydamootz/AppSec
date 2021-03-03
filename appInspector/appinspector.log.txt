@@ -1,0 +1,32 @@
+2021-03-03 14:23:56 8 ERROR - AppInsLog - Access to the path '/home/dickbutt/exploits/priv_esc/win/watson.exe' is denied.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Microsoft.CST.RecursiveExtractor.MiniMagic.DetectFileType(String filename)
+   at Microsoft.ApplicationInspector.Commands.AnalyzeCommand.<GetResult>b__21_0(String filename) in C:\Users\test\Documents\code\ApplicationInspector\AppInspector\Commands\AnalyzeCommand.cs:line 324
+2021-03-03 14:23:56 8 ERROR - AppInsLog - Access to the path '/home/dickbutt/exploits/priv_esc/win/sharpup.exe' is denied.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Microsoft.CST.RecursiveExtractor.MiniMagic.DetectFileType(String filename)
+   at Microsoft.ApplicationInspector.Commands.AnalyzeCommand.<GetResult>b__21_0(String filename) in C:\Users\test\Documents\code\ApplicationInspector\AppInspector\Commands\AnalyzeCommand.cs:line 324
+2021-03-03 14:23:56 7 ERROR - AppInsLog - Access to the path '/home/dickbutt/exploits/priv_esc/win/winpeas.exe' is denied.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Microsoft.CST.RecursiveExtractor.MiniMagic.DetectFileType(String filename)
+   at Microsoft.ApplicationInspector.Commands.AnalyzeCommand.<GetResult>b__21_0(String filename) in C:\Users\test\Documents\code\ApplicationInspector\AppInspector\Commands\AnalyzeCommand.cs:line 324
+2021-03-03 14:23:56 6 ERROR - AppInsLog - Access to the path '/home/dickbutt/exploits/priv_esc/win/seatbelt.exe' is denied.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Microsoft.CST.RecursiveExtractor.MiniMagic.DetectFileType(String filename)
+   at Microsoft.ApplicationInspector.Commands.AnalyzeCommand.<GetResult>b__21_0(String filename) in C:\Users\test\Documents\code\ApplicationInspector\AppInspector\Commands\AnalyzeCommand.cs:line 324
